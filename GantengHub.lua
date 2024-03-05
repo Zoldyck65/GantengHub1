@@ -143,9 +143,9 @@ repeat wait() until game:IsLoaded()
         local cd = 0;
  
         local AmountCooldown = FarmSection:AddInput("Input", {
-            Title = "Coolown Teleport",
-            Default =  50,
-            Placeholder = "Recommended  50",
+            Title = "Cooldown Teleport",
+            Default =  45,
+            Placeholder = "Recommended  45",
             Numeric = true, -- Only allows numbers
             Finished = false, -- Only calls callback when you press enter
             Callback = function(Value)
