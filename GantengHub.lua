@@ -28,8 +28,8 @@ repeat wait() until game:IsLoaded()
  
  
     local Window = Fluent:CreateWindow({
-        Title = "Ganteng Hub",
-        SubTitle = "By Isnahamzah And Yanzz",
+        Title = "Turu hub | v0.0.1 Beta",
+        SubTitle = " ",
         TabWidth = 100,
         Size = UDim2.fromOffset(450, 350),
         Acrylic = false, 
@@ -143,9 +143,9 @@ repeat wait() until game:IsLoaded()
         local cd = 0;
  
         local AmountCooldown = FarmSection:AddInput("Input", {
-            Title = "Cooldown Teleport",
-            Default =  45,
-            Placeholder = "Recommended  45",
+            Title = "Coolown Teleport",
+            Default =  50,
+            Placeholder = "Recommended  50",
             Numeric = true, -- Only allows numbers
             Finished = false, -- Only calls callback when you press enter
             Callback = function(Value)
